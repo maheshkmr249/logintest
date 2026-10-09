@@ -1,6 +1,7 @@
 package JavaPrograms;
 import java.util.*;
 
+
 public class AnargamGroups {
 
     public static void main(String[] args) {
@@ -20,5 +21,9 @@ public class AnargamGroups {
           map.get(key).add(w);
         } 
         System.out.println(map.values());
+//        for(Map.Entry<String, List<String>> entry : map.entrySet())
+//        {
+//          System.out.println(entry.getKey()+" : "+entry.getValue());
+//        }
     }
 }
