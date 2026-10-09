@@ -6,6 +6,9 @@
       <class name="SeleniumPractice.Grid1">
         <methods>
           <include name="grid"/>
+          <include name="closebrowser"/>
+          <include name="launchbrowser"/>
+          <include name="OpenGoogle1"/>
         </methods>
       </class> <!-- SeleniumPractice.Grid1 -->
     </classes>

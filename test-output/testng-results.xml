@@ -1,17 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-21T11:51:26 IST" name="Default suite" finished-at="2026-09-21T11:51:30 IST" duration-ms="3822">
+  <suite started-at="2026-10-02T12:57:23 IST" name="Cross Browser Suite" finished-at="2026-10-02T12:57:38 IST" duration-ms="14696">
     <groups>
     </groups>
-    <test started-at="2026-09-21T11:51:26 IST" name="Default test" finished-at="2026-09-21T11:51:30 IST" duration-ms="3822">
-      <class name="TestNgLearning.RightClick">
-        <test-method signature="RightclickTest()[pri:0, instance:TestNgLearning.RightClick@2d3379b4]" started-at="2026-09-21T11:51:26 IST" name="RightclickTest" finished-at="2026-09-21T11:51:30 IST" duration-ms="3729" status="PASS">
+    <test started-at="2026-10-02T12:57:23 IST" name="Chrome Test" finished-at="2026-10-02T12:57:28 IST" duration-ms="4812">
+      <class name="CrossBrowserTestNg.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:CrossBrowserTestNg.LoginTest@36ebc363]" started-at="2026-10-02T12:57:23 IST" name="setup" finished-at="2026-10-02T12:57:26 IST" duration-ms="3374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RightclickTest -->
-      </class> <!-- TestNgLearning.RightClick -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setup -->
+        <test-method signature="googleTest()[pri:0, instance:CrossBrowserTestNg.LoginTest@36ebc363]" started-at="2026-10-02T12:57:26 IST" name="googleTest" finished-at="2026-10-02T12:57:27 IST" duration-ms="1013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CrossBrowserTestNg.LoginTest@36ebc363]" started-at="2026-10-02T12:57:27 IST" name="tearDown" finished-at="2026-10-02T12:57:28 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CrossBrowserTestNg.LoginTest -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2026-10-02T12:57:28 IST" name="Firefox Test" finished-at="2026-10-02T12:57:35 IST" duration-ms="7058">
+      <class name="CrossBrowserTestNg.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:CrossBrowserTestNg.LoginTest@63475ace]" started-at="2026-10-02T12:57:28 IST" name="setup" finished-at="2026-10-02T12:57:31 IST" duration-ms="3379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="googleTest()[pri:0, instance:CrossBrowserTestNg.LoginTest@63475ace]" started-at="2026-10-02T12:57:31 IST" name="googleTest" finished-at="2026-10-02T12:57:34 IST" duration-ms="2469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CrossBrowserTestNg.LoginTest@63475ace]" started-at="2026-10-02T12:57:34 IST" name="tearDown" finished-at="2026-10-02T12:57:35 IST" duration-ms="1205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CrossBrowserTestNg.LoginTest -->
+    </test> <!-- Firefox Test -->
+    <test started-at="2026-10-02T12:57:35 IST" name="Edge Test" finished-at="2026-10-02T12:57:38 IST" duration-ms="2755">
+      <class name="CrossBrowserTestNg.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:CrossBrowserTestNg.LoginTest@c0c2f8d]" started-at="2026-10-02T12:57:35 IST" name="setup" finished-at="2026-10-02T12:57:36 IST" duration-ms="1190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="googleTest()[pri:0, instance:CrossBrowserTestNg.LoginTest@c0c2f8d]" started-at="2026-10-02T12:57:36 IST" name="googleTest" finished-at="2026-10-02T12:57:37 IST" duration-ms="1191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CrossBrowserTestNg.LoginTest@c0c2f8d]" started-at="2026-10-02T12:57:37 IST" name="tearDown" finished-at="2026-10-02T12:57:38 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CrossBrowserTestNg.LoginTest -->
+    </test> <!-- Edge Test -->
+  </suite> <!-- Cross Browser Suite -->
 </testng-results>

@@ -19,6 +19,5 @@ public class lastNonRepeatingCharacter1 {
 				break;
 			}
 		}
-
 	}
 }
